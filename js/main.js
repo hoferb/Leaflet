@@ -26,7 +26,7 @@ var stadia_as = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{
 	ext: 'png'
 });
 
-var statia_asd = L.tileLayer.provider(Stadia.AlidadeSmoothDark);
+var stadia_asd = L.tileLayer.provider(Stadia.AlidadeSmoothDark);
 
 // for using the two base maps in the layer control, I defined a baseMaps variable
 var baseMaps = {
