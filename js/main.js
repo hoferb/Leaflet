@@ -206,7 +206,7 @@ var features = {
 //the legend uses the layer control with entries for the base maps and two of the layers we added
 //in case either base maps or features are not used in the layer control, the respective element in the properties is null
 
-L.control.layers(null, features, {position:'topleft'}).addTo(map);
+L.control.layers(baseMaps, features, {position:'topleft'}).addTo(map);
 
 
 
